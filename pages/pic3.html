@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery - Page 3</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: #fdfdfd;
+    }
+    .section-title {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .section-title h2 {
+      color: #e64980;
+      font-weight: bold;
+    }
+    .section-title p {
+      color: #666;
+    }
+    .gallery-image {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border-radius: 20px;
+    }
+    .gallery-image:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+    .pagination {
+      justify-content: center;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="container py-5">
+    <div class="section-title">
+      <h2>Gallery</h2>
+      <p>Even more happy faces at Jolly Island</p>
+    </div>
+
+    <div class="row g-3">
+      <div class="col-sm-6 col-md-4">
+        <img src="../images/tplay5.png" class="img-fluid gallery-image" alt="">
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <img src="../images/softplay1.png" class="img-fluid gallery-image" alt="">
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <img src="../images/p1.jpg" class="img-fluid gallery-image" alt="">
+      </div>
+       <div class="col-sm-6 col-md-4">
+        <img src="../images/tplay1.png" class="img-fluid gallery-image" alt="">
+      </div>
+       <div class="col-sm-6 col-md-4">
+        <img src="../images/softplay2.png" class="img-fluid gallery-image" alt="">
+      </div>
+       <div class="col-sm-6 col-md-4">
+        <img src="../images/rplay.png" class="img-fluid gallery-image" alt="">
+      </div>
+
+    </div>
+
+    <!-- Pagination -->
+    <div class="gallery1 mt-4">
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="pic2.html">prev</a></li>
+        <li class="page-item"><a class="page-link" href="pic.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="pic2.html">2</a></li>
+        <li class="page-item active"><a class="page-link" href="pic3.html">3</a></li>
+      </ul>
+    </div>
+  </section>
+
+</body>
+</html>
